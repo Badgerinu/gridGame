@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://c1eedux5oqrot"]
+
+[ext_resource type="Script" path="res://scenes/battle.gd" id="1_3cb70"]
+[ext_resource type="PackedScene" uid="uid://f3kvv4opkagr" path="res://scenes/tile_map.tscn" id="1_mqnqy"]
+[ext_resource type="PackedScene" uid="uid://03p75eiyw48f" path="res://scenes/unit.tscn" id="3_ngoec"]
+
+[node name="Battle" type="Node2D"]
+script = ExtResource("1_3cb70")
+
+[node name="TileMap" parent="." instance=ExtResource("1_mqnqy")]
+
+[node name="Unit" parent="." instance=ExtResource("3_ngoec")]
+position = Vector2(493, 175)
+scale = Vector2(0.0238043, 0.0218232)

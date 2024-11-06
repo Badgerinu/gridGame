@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cyw5na38efdxg"]
+
+[ext_resource type="Script" path="res://Nevigation.gd" id="1_1tr5j"]
+
+[node name="Nevigation" type="Node"]
+script = ExtResource("1_1tr5j")
